@@ -104,7 +104,7 @@ status-website:
   introMessage: ''
   links:
     - rel: stylesheet
-      href: https://raw.githubusercontent.com/principalstudio/dmc-system-status/master/status-website-stylesheet.css
+      href: https://principalstudio.github.io/dmc-system-status/custom-styles.css
   #navbar:
     #- title: Status
     #  href: /
