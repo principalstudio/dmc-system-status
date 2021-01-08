@@ -1,0 +1,15 @@
+a.logo img {
+  max-width: 90px;
+}
+
+@media (mim-width: 340px) {
+  a.logo img {
+    max-width: 120px;
+  }
+}
+
+@media (mim-width: 768px) {
+  a.logo img {
+    max-width: 140px;
+  }
+}
