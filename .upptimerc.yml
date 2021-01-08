@@ -1,11 +1,95 @@
 # Change these first
 owner: principalstudio # Your GitHub username
+user-agent: principalstudio
 repo: uptime-dmc-website # Your GitHub repository name
 
 # Add your sites here
 sites:
   - name: Homepage
     url: https://www.dawsonmetal.com
+  - url: https://www.dawsonmetal.com/architectural-entrances
+    name: Architectural Entrances
+  - url: https://www.dawsonmetal.com/architectural-entrances/products/custom-series
+    name: Custom Series
+  - url: https://www.dawsonmetal.com/architectural-entrances/products/narrow-stile
+    name: Ultra Narrow Stile Series
+  - url: https://www.dawsonmetal.com/architectural-entrances/products/standard
+    name: Standard Series
+  - url: https://www.dawsonmetal.com/architectural-entrances/products/rugged-series
+    name: Rugged Series
+  - url: https://www.dawsonmetal.com/architectural-entrances/products/all-glass
+    name: All Glass Series
+  - url: https://www.dawsonmetal.com/architectural-entrances/products/designer
+    name: Designer Series
+  - url: https://www.dawsonmetal.com/architectural-entrances/products/retail-series
+    name: Retail Series
+  - url: https://www.dawsonmetal.com/architectural-entrances/products/aluminum
+    name: Aluminum Series
+  - url: https://www.dawsonmetal.com/architectural-entrances/products/thresholds
+    name: Custom Thresholds
+  - url: https://www.dawsonmetal.com/architectural-entrances/dawson-balanced-door
+    name: The Dawson Balanced Door
+  - url: https://www.dawsonmetal.com/architectural-entrances/accessibility-standards
+    name: Accessibility Standards
+  - url: https://www.dawsonmetal.com/metal-fabrication
+    name: Metal Fabrication
+  - url: https://www.dawsonmetal.com/metal-fabrication/services/laser-cutting
+    name: Laser Cutting
+  - url: https://www.dawsonmetal.com/metal-fabrication/services/brake-forming
+    name: Brake Forming
+  - url: https://www.dawsonmetal.com/metal-fabrication/services/hardware-insertion
+    name: Hardware Insertion
+  - url: https://www.dawsonmetal.com/metal-fabrication/services/welding
+    name: Welding
+  - url: https://www.dawsonmetal.com/metal-fabrication/services/machining
+    name: Machining
+  - url: https://www.dawsonmetal.com/metal-fabrication/services/cnc-turret
+    name: CNC Turret Manufacturing
+  - url: https://www.dawsonmetal.com/metal-fabrication/services/cell-manufacturing
+    name: Cellular Manufacturing
+  - url: https://www.dawsonmetal.com/metal-fabrication/services/quality-inspection
+    name: Quality &amp; Inspection
+  - url: https://www.dawsonmetal.com/metal-fabrication/services/finishing
+    name: Finishing
+  - url: https://www.dawsonmetal.com/finishing-services
+    name: Finishing Services
+  - url: https://www.dawsonmetal.com/finishing-services/services/powder-coating
+    name: Powder Coating
+  - url: https://www.dawsonmetal.com/finishing-services/services/wet-painting
+    name: Wet Painting
+  - url: https://www.dawsonmetal.com/finishing-services/services/sandblasting
+    name: Sandblasting
+  - url: https://www.dawsonmetal.com/finishing-services/services/assembly-shipping
+    name: Assembly &amp; Shipping
+  - url: https://www.dawsonmetal.com/employment
+    name: Employment
+  - url: https://www.dawsonmetal.com/employment/job-offers
+    name: Current Job Openings
+  - url: https://www.dawsonmetal.com/employment/spontaneous-application
+    name: Spontaneous Application
+  - url: https://www.dawsonmetal.com/about
+    name: About
+  - url: https://www.dawsonmetal.com/about/news
+    name: News
+  - url: https://www.dawsonmetal.com/about/facilities
+    name: Facilities
+  - url: https://www.dawsonmetal.com/about/press
+    name: Press
+  - url: https://www.dawsonmetal.com/case-studies
+    name: Case Studies
+  - url: https://www.dawsonmetal.com/privacy-policy
+    name: Privacy Policy
+  - url: https://www.dawsonmetal.com/sales-inquiry
+    name: Sales Inquiry
+  - url: https://www.dawsonmetal.com/contact
+    name: Contact
+  - url: https://www.dawsonmetal.com/resources
+    name: Resources
+  - url: https://www.dawsonmetal.com/sitemap
+    name: Sitemap
+
+assignees:
+  - julesrenaud
 
 status-website:
   # Add your custom domain below, or remove the next line if you don't have a domain
@@ -13,16 +97,29 @@ status-website:
   # Uncomment the following line if you don't have a custom domain and add your repo name
   baseUrl: /uptime-dmc-website
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
+  name: DMC Uptime Monitor
   #introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introTitle: ''
+  introTitle: 'Uptime monitor for DMC website'
   #introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
   introMessage: ''
-  navbar:
-    - title: Status
-      href: /
+  #navbar:
+    #- title: Status
+    #  href: /
     #- title: GitHub
     #  href: https://github.com/$OWNER/$REPO
+
+commitMessages:
+  commitAuthorName: principal-pug-tracker
+  commitAuthorEmail: support@principal.studio
+
+workflowSchedule:
+  graphs: "0 0 * * *"
+  responseTime: "0 23 * * *"
+  staticSite: "0 1 * * *"
+  summary: "0 0 * * *"
+  updateTemplate: "0 0 * * *"
+  updates: "0 3 * * *"
+  uptime: "*/30 * * * *"
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
