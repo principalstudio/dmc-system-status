@@ -60,7 +60,7 @@ With [Upptime](https://upptime.js.org), you can get your own unlimited and free 
 
 <!--end: status pages-->
 
-[**Visit our status website →**](https://principalstudio.github.io/uptime-dmc-website)
+[**Visit our status website →**](https://principalstudio.github.io/dmc-system-status)
 
 ## 📄 License
 
