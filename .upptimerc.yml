@@ -96,7 +96,7 @@ status-website:
   #cname: demo.upptime.js.org
   # Uncomment the following line if you don't have a custom domain and add your repo name
   baseUrl: /dmc-system-status
-  logoUrl: https://www.dawsonmetal.com/images/svg-inline/branding.svg
+  logoUrl: https://upptime-static-files.website-us-east-1.linodeobjects.com/dmc/dmc-logo.svg
   name: DMC System Status
   #introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
   introTitle: ''
@@ -104,7 +104,7 @@ status-website:
   introMessage: ''
   links:
     - rel: stylesheet
-      href: https://principalstudio.github.io/dmc-system-status/custom-styles.css
+      href: https://upptime-static-files.website-us-east-1.linodeobjects.com/dmc/dmc-custom-styles.css
   #navbar:
     #- title: Status
     #  href: /
