@@ -4,36 +4,40 @@
     "url": "https://www.dawsonmetal.com",
     "icon": "https://favicons.githubusercontent.com/www.dawsonmetal.com",
     "slug": "homepage",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "down",
+    "uptime": "99.98%",
+    "uptimeDay": "99.82%",
+    "uptimeWeek": "99.97%",
+    "uptimeMonth": "99.98%",
+    "uptimeYear": "99.98%",
     "time": 636,
     "timeDay": 701,
     "timeWeek": 739,
     "timeMonth": 636,
     "timeYear": 636,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2021-01-20": 3
+    }
   },
   {
     "name": "Architectural Entrances",
     "url": "https://www.dawsonmetal.com/architectural-entrances",
     "icon": "https://favicons.githubusercontent.com/www.dawsonmetal.com",
     "slug": "architectural-entrances",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "down",
+    "uptime": "99.99%",
+    "uptimeDay": "99.93%",
+    "uptimeWeek": "99.99%",
+    "uptimeMonth": "99.99%",
+    "uptimeYear": "99.99%",
     "time": 489,
     "timeDay": 522,
     "timeWeek": 530,
     "timeMonth": 489,
     "timeYear": 489,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2021-01-20": 1
+    }
   },
   {
     "name": "Custom Series",
