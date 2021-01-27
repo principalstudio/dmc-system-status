@@ -188,18 +188,20 @@
     "url": "https://www.dawsonmetal.com/architectural-entrances/products/thresholds",
     "icon": "https://favicons.githubusercontent.com/www.dawsonmetal.com",
     "slug": "custom-thresholds",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.96%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 475,
-    "timeDay": 412,
-    "timeWeek": 473,
-    "timeMonth": 475,
-    "timeYear": 475,
-    "dailyMinutesDown": {}
+    "time": 468,
+    "timeDay": 343,
+    "timeWeek": 448,
+    "timeMonth": 468,
+    "timeYear": 468,
+    "dailyMinutesDown": {
+      "2021-01-27": 1
+    }
   },
   {
     "name": "The Dawson Balanced Door",
